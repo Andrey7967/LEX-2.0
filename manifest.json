@@ -2,7 +2,8 @@
     "name": "LEX",
     "short_name": "LEX",
     "start_url": "/",
-    "display": "browser",
+    "display": "fullscreen",
+    "orientation": "portrait",
     "background_color": "rgb(220, 229, 255)",
     "theme_color": "rgb(220, 229, 255)",
     "icons": [

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LEX-2.0/static/css/main.c0ef1d47.css",
+    "main.css": "/LEX-2.0/static/css/main.3dc50659.css",
     "main.js": "/LEX-2.0/static/js/main.614eacdc.js",
     "static/media/keyPress.wav": "/LEX-2.0/static/media/keyPress.132d2f33c3eb8e0ad9ae.wav",
     "static/media/future.otf": "/LEX-2.0/static/media/future.97095fb135af1c8f1a36.otf",
@@ -8,11 +8,11 @@
     "static/media/Frame 2.svg": "/LEX-2.0/static/media/Frame 2.3b985854639fa068a728de025d36dc7b.svg",
     "static/media/shadowLogo.svg": "/LEX-2.0/static/media/shadowLogo.13965e7f6ca9cd5785ea30bb8acf1c3f.svg",
     "index.html": "/LEX-2.0/index.html",
-    "main.c0ef1d47.css.map": "/LEX-2.0/static/css/main.c0ef1d47.css.map",
+    "main.3dc50659.css.map": "/LEX-2.0/static/css/main.3dc50659.css.map",
     "main.614eacdc.js.map": "/LEX-2.0/static/js/main.614eacdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0ef1d47.css",
+    "static/css/main.3dc50659.css",
     "static/js/main.614eacdc.js"
   ]
 }
