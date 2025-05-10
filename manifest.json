@@ -7,8 +7,8 @@
     "theme_color": "#000000",
     "icons": [
       {
-        "src": "/src/img/appLogo.png",
-        "sizes": "192x192",
+        "src": "/icons/appLogo.png",
+        "sizes": "512x512",
         "type": "image/png"
       }
     
