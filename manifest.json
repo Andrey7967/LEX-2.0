@@ -1,8 +1,8 @@
 {
     "name": "LEX",
     "short_name": "LEX",
-    "start_url": "/LEX-2.0",
-    "display": "standalone",
+    "start_url": "/",
+    "display": "browser",
     "background_color": "#000000",
     "theme_color": "#000000",
     "icons": [
