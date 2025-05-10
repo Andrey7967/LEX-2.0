@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/LEX-2.0/static/css/main.41d20213.css",
-    "main.js": "/LEX-2.0/static/js/main.9168e8de.js",
-    "static/media/shadowLogo.png": "/LEX-2.0/static/media/shadowLogo.b503fcddb4a605cc12e1.png",
+    "main.js": "/LEX-2.0/static/js/main.6012dba0.js",
+    "static/media/shadowLogo.png": "/LEX-2.0/static/media/shadowLogo.3ea0f84458c9eeabd0fa.png",
     "static/media/keyPress.wav": "/LEX-2.0/static/media/keyPress.132d2f33c3eb8e0ad9ae.wav",
     "static/media/future.otf": "/LEX-2.0/static/media/future.97095fb135af1c8f1a36.otf",
     "static/media/Pixelizer.ttf": "/LEX-2.0/static/media/Pixelizer.67c7825284747dff320c.ttf",
     "static/media/Frame 2.svg": "/LEX-2.0/static/media/Frame 2.3b985854639fa068a728de025d36dc7b.svg",
     "index.html": "/LEX-2.0/index.html",
     "main.41d20213.css.map": "/LEX-2.0/static/css/main.41d20213.css.map",
-    "main.9168e8de.js.map": "/LEX-2.0/static/js/main.9168e8de.js.map"
+    "main.6012dba0.js.map": "/LEX-2.0/static/js/main.6012dba0.js.map"
   },
   "entrypoints": [
     "static/css/main.41d20213.css",
-    "static/js/main.9168e8de.js"
+    "static/js/main.6012dba0.js"
   ]
 }
