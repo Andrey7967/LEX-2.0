@@ -2,6 +2,7 @@
     "name": "LEX",
     "short_name": "LEX",
     "start_url": "/",
+    "scope": "/" ,
     "display": "fullscreen",
     "orientation": "portrait",
     "background_color": "rgb(220, 229, 255)",
