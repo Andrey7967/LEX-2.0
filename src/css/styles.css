@@ -1,0 +1,378 @@
+:root {
+    --main-bg-color: brown;
+  }
+
+@font-face {
+    font-family: pixelizer;
+    src: url(../fonts/Pixelizer.ttf);
+   
+}
+
+@font-face {
+    font-family: future;
+    src: url(../fonts/future.otf);
+   
+}
+
+html {
+    font-size: 0.12vh;
+    overscroll-behavior: none; 
+}
+
+body {
+    background: rgb(220, 229, 255);
+    font-family: future;
+    font-size: 15rem;
+   margin: 0;
+   user-select: none;
+   letter-spacing: 0rem;
+   overscroll-behavior: none; 
+} 
+
+
+
+.svgAccurate {
+    shape-rendering:auto;
+    
+    width: 40rem;
+    margin-top: 1.6rem;
+}
+
+.logo {
+
+    width:64.97rem;
+
+}
+.wheel {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+    height: 83rem;
+    background: #000593;
+    box-shadow:  
+     0rem 4rem 4rem 0rem rgba(0, 0, 0, 0.25),
+     8rem 4rem 12.2rem 0rem rgba(0, 0, 0, 0.74);
+    border-radius: 3.5rem;
+}
+
+
+.wheel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow:   inset -4rem -15rem 15.3rem 0rem rgba(0, 0, 0, 0.81),
+    inset 0rem 2rem 10.7rem 0rem rgba(0, 0, 0, 0.85);
+    pointer-events: none; 
+    z-index: 1; 
+  }
+
+.hole {
+    width: fit-content;
+    height: fit-content;
+    padding: 9rem 2.5rem;
+    background: #000000;
+    border-radius: 7rem;
+    margin-bottom: 7rem;    
+}
+.frame {
+    box-sizing: border-box;
+    padding: 9.75rem;
+    width: fit-content;
+    height: fit-content;
+    background: #DCE5FF;
+    box-shadow:  3rem 3rem 10.8rem 0rem rgba(15, 28, 148, 0.5), /*повышение чисел в тени меняет границу с аркообразной на часть разделеныый арки, что в дополнении придает более сильную выпуклость */ 
+                inset -4.5rem -4.5rem 3.7rem 0rem rgba(14, 42, 150, 0.77),
+                inset 3rem 3rem 5.55rem 0rem rgb(255, 255, 255),
+                inset -7.5rem -7.5rem 4.65rem 0rem rgb(255, 255, 255),
+                inset 10.5rem 10.5rem 16.65rem 0rem rgba(17, 47, 167, 0.68);
+}
+
+.greenBtn {
+    border-radius: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px 15rem;
+    background: #67FF6F;
+    box-shadow: inset 4.5rem 4.5rem 8.25rem 0rem rgba(10, 113, 15, 1),
+    inset 10.5rem 10.5rem 10.8rem 0rem rgb(255, 255, 255),
+    inset -7.5rem -7.5rem 6.75rem 0rem rgba(10, 113, 15, 1) ;
+    font-family: future;
+    height: 78rem;
+    text-shadow: 1rem 1rem 4.6rem  rgba(0,0,0,0.58);
+}
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+}
+.greenBtnF {
+ 
+    width: 100%;
+  
+    border-radius: 18rem;
+}
+
+.wheelSection {
+    /* width:153rem; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 0rem;
+    margin-right: 25rem;
+    width: 35%;
+}
+
+
+.yellowBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    background: #F4FF1E;
+    box-shadow: inset 4.5rem 4.5rem 8.25rem 0rem rgba(113, 111, 10, 1),
+    inset 10.5rem 10.5rem 10.8rem 0rem rgb(255, 255, 255),
+    inset -7.5rem -7.5rem 6.75rem 0rem  rgba(111, 113, 10, 1) ;
+    font-family: future;
+    border-radius: 5rem;
+ 
+}
+
+.yellowBtnF {
+    border-radius: 12rem;
+   width: 48%;
+}
+.display {
+  
+
+   background: #00193C;
+   box-shadow: inset -10.5rem -10.5rem 71.25rem 0rem rgba(45, 0, 151, 0.92);
+   font-family: pixelizer;
+   letter-spacing: normal;
+   border-radius:12rem ;
+   width: 100%;
+   height: 100%;
+   color:#5D9FEB;
+   box-sizing: border-box;
+  padding: 9rem 26rem;
+   text-shadow: 1rem 1rem 6.9rem  rgba(171, 208, 250, 0.46);
+   font-size: 25rem;
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+}
+
+.TextCenter {
+    display: flex;
+    justify-content: center;
+}
+.EngWord {
+    width: 100%;
+    height: 100%;
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.StartSection-title {
+    margin-top: 20rem;
+    text-align: center;
+   
+}
+.counter-couples {
+    display: flex;
+    justify-content: space-between;
+    width: 109rem;
+}
+
+.displayF {
+   
+    width: 100%;
+    height: 70%;
+    border-radius:18rem ;
+
+}
+
+
+.toBorders {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.StartSection {
+    display: flex;
+    text-shadow: 1rem 1rem 4.6rem  rgba(0,0,0,0.58);
+    margin: 20rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 42%;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.device {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 18rem;
+    width: 60vw;
+    height: 67vh;
+    background: #DCE5FF;
+    box-shadow: inset 7rem 7rem 5.1rem 0rem rgb(255, 255, 255),
+    inset -7rem -7rem 16.2rem 0rem rgba(15, 28, 148, 0.92),
+    inset -20rem -20rem 8.3rem 0rem rgba(255, 255, 255, 0.92),
+     -8rem -8rem 29rem 0rem rgb(255, 255, 255),
+     5rem 10rem 26.4rem 0rem rgba(17, 47, 167, 0.71);
+
+    padding: 18rem;
+    
+   
+   
+}
+
+.device-display {
+    width: 49%;
+    height: 100%;
+}
+
+
+.device-answers {
+    width: 49%;
+    height: 100%;
+}
+.full {
+    margin-top: 15rem;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.buttonFrame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+
+}
+
+.horizont {
+    display: flex;
+ 
+   
+}
+
+.p16 {
+    font-size: calc(16rem);
+}
+
+.p13 {
+    font-size: calc(13rem);
+}
+.p24 {
+    font-size: calc(24rem);
+}
+
+.p20 {
+    font-size: calc(20rem);
+}
+
+.p10 {
+    font-size: calc(10rem);
+}
+.p12 {
+    font-size: calc(12rem);
+}
+
+.StartSection-buttons {
+  width: 100%;
+}
+
+@media (max-width:1237px) {
+    .StartSection-title {
+        font-size: 12rem;
+
+    }
+}
+
+@media (max-width:930px) {
+    .StartSection-title {
+        font-size: 10rem;
+    }
+}
+
+
+@media (max-width:879px) {
+   .device {
+    flex-direction: column;
+    width: 70vw;
+    height: 90vh;
+   }
+   .device-display {
+   
+    height: 49%;
+    width: 100%;
+   }
+   .device-answers {
+    margin-top: 20rem;
+    height: 49%;
+    width: 100%;
+   }
+
+   .buttonFrame {
+    height: 90%;
+}
+
+.greenBtn {
+    height: 48rem;
+}
+}
+
+
+
+@media (max-width: 568px) {
+    .device {
+        box-sizing: border-box;
+        box-shadow: none;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    .App {
+        align-items:start;
+    }
+
+    .buttonFrame {
+        height: 90%;
+    }
+
+    .greenBtn {
+        height: 50rem;
+    }
+   /* .yellowBtn {
+    width: 43.64rem;
+   }
+   .StartSection {
+    width: 100rem;
+   } */
+    
+  }
+
+.deviceAdjust {
+    width: 100%;
+}
