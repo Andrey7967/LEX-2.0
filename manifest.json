@@ -9,7 +9,7 @@
     "theme_color": "rgb(220, 229, 255)",
     "icons": [
       {
-        "src": "./icons/yellow.png",
+        "src": "./icons/glassyL.png",
         "sizes": "512x512",
         "type": "image/png"
       }
