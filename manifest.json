@@ -1,6 +1,6 @@
 {
-    "name": "LEX",
-    "short_name": "LEX",
+    "name": "LEX_DE",
+    "short_name": "LEX-DE",
     "start_url": "/LEX-2.0",
     "scope": "/LEX-2.0" ,
     "display": "fullscreen",
